@@ -139,7 +139,6 @@
       "grow_up" : {
         "event": "minecraft:ageable_grow_up",
         "target": "self"
-        }
       }
     },
     "description" : {
