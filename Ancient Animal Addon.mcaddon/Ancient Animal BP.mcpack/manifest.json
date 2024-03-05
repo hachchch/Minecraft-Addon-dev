@@ -2,17 +2,17 @@
   "format_version": 2,
   "header": {
     "name": "Ancient Animal Addon BP",
-    "version": [0,0,1],
-    "min_engine_version" : [1,20,62],
     "description" : "Description is missing",
-    "uuid" : "8E939D59-76B6-4159-A2D2-F0EF4343FD50"
+    "uuid" : "8E939D59-76B6-4159-A2D2-F0EF4343FD50",
+    "version": [0,0,1],
+    "min_engine_version" : [1,20,62]
   },
   "modules" : [
     {
-      "version" : [0,0,1],
       "description" : "Add Tiktaalik in your game!",
       "type" : "data",
-      "uuid" : "CA20CC57-D4C4-4295-9891-73EE3BA85776"
+      "uuid" : "CA20CC57-D4C4-4295-9891-73EE3BA85776",
+      "version" : [0,0,1]
     }
   ]
 }
