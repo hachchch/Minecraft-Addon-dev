@@ -4,7 +4,7 @@
     "name" : "Ancient Animal Addon RP",
     "description" : "Add Tiktaalik in your game! back to the Paleoworld!",
     "uuid" : "EC800834-64CD-47D1-8000-455036AB8DEB",
-    "version" : [1,0,7],
+    "version" : [1,0,9],
     "min_engine_version" : [1,20,62],
     "vanilla": [1,12,0]
   },
@@ -13,7 +13,7 @@
       "description" : "Add Tiktaalik in your game!",
       "type" : "resources",
       "uuid" : "7F37DD7B-039F-4E27-9941-EF4E9C54CA8D",
-      "version" : [1,0,7]
+      "version" : [1,0,9]
     }
   ]
 }
