@@ -19,7 +19,7 @@
         "target": "self"
       },
       "minecraft:ageable" : {
-        "feed_items" : ["cod"],
+        "feed_items" : ["cod","salmon","tropical_fish"],
         "duration" : 1200,
         "grow_up" : {"event" : "ageable_grow_up","target" : "self"}
       },
