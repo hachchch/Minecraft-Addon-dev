@@ -1,0 +1,48 @@
+{
+  "entity_sounds" : {
+    "entities" : {
+      "cc:tiktaalik" : {
+        "pitch" : [
+          0.80000000000000004,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "death" : {
+            "pitch" : [
+              0.80000001192092896,
+              1.2000000476837158
+            ],
+            "sound" : "mob.cc_tiktaalik.death",
+            "volume" : [
+              1,
+              1
+            ]
+          },
+          "hurt" : {
+            "pitch" : [
+              0.80000001192092896,
+              1.2000000476837158
+            ],
+            "sound" : "mob.cc_tiktaalik.hurt",
+            "volume" : [
+              1,
+              1
+            ]
+          },
+          "flop" : {
+            "pitch" : [
+              1,
+              1
+            ],
+            "sound" : "mob.fish.flop",
+            "volume" : [
+              1,
+              1
+            ]
+          }
+        }
+      }
+    }
+  }
+}
