@@ -2,10 +2,10 @@
   "minecraft:client_entity" : {
     "description" : {
       "render_controllers" : [
-        "controller.render.tadpole"
+        "controller.render.tiktaalik"
       ],
       "materials" : {
-        "default" : "tadpole"
+        "default" : "tiktaalik"
       },
       "geometry" : {
         "default" : "geometry.tiktaalik"
@@ -14,13 +14,13 @@
         "swim" : "animation.tiktaalik.swim"
       },
       "spawn_egg" : {
-        "texture" : "aaa:tiktaalik",
+        "texture" : "hachchch:tiktaalik",
         "texture_index" : 0
       },
-      "identifier" : "aaa:tiktaalik",
+      "identifier" : "hachchch:tiktaalik",
       "animation_controllers" : [
         {
-          "general" : "controller.animation.tadpole.general"
+          "general" : "controller.animation.tiktaalik.general"
         }
       ],
       "textures" : {
