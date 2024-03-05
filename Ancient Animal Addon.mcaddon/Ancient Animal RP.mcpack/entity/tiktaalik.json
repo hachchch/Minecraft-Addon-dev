@@ -8,7 +8,7 @@
       "materials" : {"default" : "tadpole"},
       "geometry" : {"default" : "geometry.tiktaalik"},
       "animations" : {"swim" : "animation.tiktaalik.swim"},
-      "spawn_egg" : {"texture" : "hachchch:tiktaalik","texture_index" : 1},
+      "spawn_egg" : {"texture" : "hachchch:tiktaalik_egg","texture_index" : 1},
       "identifier" : "hachchch:tiktaalik",
       "animation_controllers" : [
         {"general" : "controller.animation.tadpole.general"}
