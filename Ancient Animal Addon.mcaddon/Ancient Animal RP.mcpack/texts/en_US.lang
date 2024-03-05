@@ -1,0 +1,3 @@
+entity.aaa:tiktaalik.name=Tiktaalik
+item.spawn_egg.entity.aaa:tiktaalik.name=Tiktaalik
+action.hint.exit.aaa:tiktaalik=Tap sneak to dismount
