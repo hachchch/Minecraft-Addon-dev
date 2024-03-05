@@ -1,0 +1,212 @@
+{
+  "minecraft:entity" : {
+    "components" : {
+      "minecraft:hurt_on_condition" : {
+        "damage_conditions" : [
+          {
+            "filters" : {
+              "test" : "in_lava",
+              "subject" : "self",
+              "value" : true,
+              "operator" : "=="
+            },
+            "cause" : "lava",
+            "damage_per_tick" : 4
+          }
+        ]
+      },
+      "minecraft:underwater_movement" : {
+        "value" : 0.25
+      },
+      "minecraft:behavior.tempt" : {
+        "speed_multiplier" : 1.25,
+        "can_tempt_vertically" : true,
+        "items" : [
+          "slime_ball"
+        ],
+        "priority" : 5
+      },
+      "minecraft:despawn" : {
+        "despawn_from_distance" : {
+
+        }
+      },
+      "minecraft:item_controllable" : {
+        "control_items" : "stick"
+      },
+      "minecraft:breedable" : {
+        "require_tame" : false,
+        "breeds_with" : {
+          "mate_type" : "tiktaalik",
+          "baby_type" : "aaa:tiktaalik",
+          "breed_event" : {
+            "event" : "minecraft:entity_born",
+            "target" : "baby"
+          }
+        },
+        "breed_items" : [
+          "raw_cod"
+        ]
+      },
+      "minecraft:health" : {
+        "max" : 12,
+        "value" : 12
+      },
+      "minecraft:behavior.melee_attack" : {
+        "track_target" : true,
+        "speed_multiplier" : 1
+      },
+      "minecraft:movement" : {
+        "value" : 0.25
+      },
+      "minecraft:behavior.look_at_player" : {
+        "probability" : 0.02,
+        "target_distance" : 6,
+        "priority" : 3
+      },
+      "minecraft:breathable" : {
+        "breathes_air" : true,
+        "suffocate_time" : 0,
+        "breathes_water" : true,
+        "generates_bubbles" : false,
+        "total_supply" : 0
+      },
+      "minecraft:pushable" : {
+
+      },
+      "minecraft:ageable" : {
+        "feed_items" : [
+          "slime_ball"
+        ],
+        "duration" : 1200,
+        "grow_up" : {
+          "event" : "ageable_grow_up",
+          "target" : "self"
+        }
+      },
+      "minecraft:behavior.panic" : {
+        "speed_multiplier" : 1.25,
+        "priority" : 0
+      },
+      "minecraft:experience_reward" : {
+        "on_bred" : "10",
+        "on_death" : "10"
+      },
+      "minecraft:is_hidden_when_invisible" : {
+
+      },
+      "minecraft:behavior.breed" : {
+        "speed_multiplier" : 1,
+        "priority" : 3
+      },
+      "minecraft:behavior.controlled_by_player" : {
+        "priority" : 0
+      },
+      "minecraft:behavior.random_swim" : {
+        "interval" : 100,
+        "priority" : 2
+      },
+      "minecraft:physics" : {
+
+      },
+      "minecraft:nameable" : {
+        "allow_name_tag_renaming" : true,
+        "always_show" : false
+      },
+      "minecraft:boostable" : {
+        "boost_items" : [
+          {
+            "damage" : 2,
+            "replace_item" : "fishing_rod",
+            "item" : "carrotOnAStick"
+          }
+        ],
+        "speed_multiplier" : 2,
+        "duration" : 3
+      },
+      "minecraft:type_family" : {
+        "family" : [
+          "tadpole",
+          "mob"
+        ]
+      },
+      "minecraft:behavior.hurt_by_target" : {
+        "priority" : 1
+      },
+      "minecraft:behavior.nearest_attackable_target" : {
+        "entity_types" : [
+          {
+            "filters" : {
+              "any_of" : [
+                {
+                  "subject" : "other",
+                  "value" : "salmon",
+                  "test" : "is_family"
+                }
+              ]
+            },
+            "max_dist" : 15
+          }
+        ],
+        "reselect_targets" : true,
+        "within_radius" : 15,
+        "priority" : 1,
+        "must_see_forget_duration" : 40,
+        "must_see" : true
+      },
+      "minecraft:loot" : {
+        "table" : "loot_tables\/entities\/fish.json"
+      },
+      "minecraft:navigation.generic" : {
+        "can_pass_doors" : false,
+        "can_sink" : false,
+        "can_swim" : true,
+        "can_path_over_water" : true,
+        "can_walk" : false,
+        "avoid_damage_blocks" : true,
+        "can_break_doors" : false
+      },
+      "minecraft:is_baby" : {
+
+      },
+      "minecraft:scale" : {
+        "value" : 1.25
+      },
+      "minecraft:collision_box" : {
+        "width" : 0.80000000000000004,
+        "height" : 0.59999999999999998
+      },
+      "minecraft:movement.sway" : {
+        "sway_amplitude" : 0
+      }
+    },
+    "component_groups" : {
+      "grow_up" : {
+        "minecraft:transformation" : {
+          "into" : "minecraft:frog",
+          "transformation_sound" : "convert_to_frog"
+        }
+      }
+    },
+    "description" : {
+      "is_spawnable" : true,
+      "is_summonable" : true,
+      "identifier" : "cc:tiktaalik",
+      "is_experimental" : false
+    },
+    "events" : {
+      "ageable_grow_up" : {
+        "sequence" : [
+          {
+            "add" : {
+              "component_groups" : [
+                "grow_up"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "format_version" : "1.16.0"
+}
