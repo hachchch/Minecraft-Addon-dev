@@ -58,7 +58,7 @@
 
     "components": {
       "minecraft:type_family": {
-        "family": ["tiktaalik","mob"]
+        "family": ["sarcopterygii","tiktaalik","mob"]
       },
       "minecraft:breathable": {
         "breathes_air" : true,
@@ -105,9 +105,6 @@
       },
       "minecraft:underwater_movement": {
         "value": 0.25
-      },
-      "minecraft:behavior.float": {
-        "priority": 0
       },
       "minecraft:behavior.breed": {
         "priority": 3,
