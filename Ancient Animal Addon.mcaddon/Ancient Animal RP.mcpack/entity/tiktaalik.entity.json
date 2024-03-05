@@ -8,7 +8,7 @@
         "default" : "tadpole"
       },
       "geometry" : {
-        "default" : "geometry.createdtiktaalik"
+        "default" : "geometry.tiktaalik"
       },
       "animations" : {
         "swim" : "animation.tiktaalik.swim"
@@ -24,7 +24,7 @@
         }
       ],
       "textures" : {
-        "default" : "textures\/craftycraft\/entity\/aaa_tiktaalik"
+        "default" : "textures/entity/tiktaalik"
       }
     }
   },
