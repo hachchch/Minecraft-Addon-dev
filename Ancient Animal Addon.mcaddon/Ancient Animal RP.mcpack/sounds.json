@@ -1,19 +1,19 @@
 {
   "entity_sounds" : {
     "entities" : {
-      "cc:tiktaalik" : {
+      "hachchch:tiktaalik" : {
         "pitch" : [
-          0.80000000000000004,
+          0.8,
           1.2
         ],
         "volume" : 1,
         "events" : {
           "death" : {
             "pitch" : [
-              0.80000001192092896,
-              1.2000000476837158
+              0.8,
+              1.2
             ],
-            "sound" : "mob.cc_tiktaalik.death",
+            "sound" : "mob.tiktaalik.death",
             "volume" : [
               1,
               1
@@ -21,10 +21,10 @@
           },
           "hurt" : {
             "pitch" : [
-              0.80000001192092896,
-              1.2000000476837158
+              0.8,
+              1.2
             ],
-            "sound" : "mob.cc_tiktaalik.hurt",
+            "sound" : "mob.tiktaalik.hurt",
             "volume" : [
               1,
               1
