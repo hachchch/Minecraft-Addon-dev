@@ -1,17 +1,12 @@
 {
-  "metadata" : {
-    "authors" : ["hachchch"],
-  },
   "format_version" : 2,
-  "header" : {"version" : [0,0,1],"min_engine_version" : [1,20,30],
+  "header" : {
+    "version" : [0,0,1],
+    "min_engine_version" : [1,20,30],
     "description" : "Description is missing",
-    "name" : "Tiktaalik Addon","uuid" : "8E939D59-76B6-4159-A2D2-F0EF4343FD50"},
-  "dependencies" : [
-    {
-      "version" : [0,0,1],
-      "uuid" : "EC800834-64CD-47D1-8000-455036AB8DEB"
-    }
-  ],
+    "name" : "Ancient Animal Addon BP",
+    "uuid" : "8E939D59-76B6-4159-A2D2-F0EF4343FD50",
+  },
   "modules" : [
     {
       "version" : [0,0,1],
