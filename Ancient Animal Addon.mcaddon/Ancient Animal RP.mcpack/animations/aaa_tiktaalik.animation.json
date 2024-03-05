@@ -1,6 +1,6 @@
 {
   "animations" : {
-    "animation.aaa_tiktaalik.swim" : {
+    "animation.tiktaalik.swim" : {
       "bones" : {
         "body" : {
           "rotation" : {
