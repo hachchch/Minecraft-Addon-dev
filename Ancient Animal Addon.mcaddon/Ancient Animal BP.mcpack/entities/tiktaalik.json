@@ -101,13 +101,8 @@
         "interval" : 5
         "priority" : 2
       },
-      "minecraft:physics" : {
-
-      },
-      "minecraft:nameable" : {
-        "allow_name_tag_renaming" : false,
-        "always_show" : false
-      },
+      "minecraft:physics" : {},
+      "minecraft:nameable" : {},
       "minecraft:type_family" : {
         "family" : [
           "tadpole",
