@@ -89,7 +89,7 @@
           }
         }
       },
-      "animation_length" : 1,
+      "animation_length" : 0.81,
       "loop" : true
     }
   },
