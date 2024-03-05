@@ -3,7 +3,7 @@
   "minecraft:spawn_rules" : {
     "description" : {
       "population_control" : "water_animal",
-      "identifier" : "aaa:tiktaalik"
+      "identifier" : "hachchch:tiktaalik"
     }
     "conditions" : [
       {
