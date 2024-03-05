@@ -1,0 +1,19 @@
+{
+  "format_version" : "1.8.0",
+  "minecraft:client_entity" : {
+    "description" : {
+      "render_controllers" : [
+        "controller.render.tadpole"
+      ],
+      "materials" : {"default" : "tadpole"},
+      "geometry" : {"default" : "geometry.tiktaalik"},
+      "animations" : {"swim" : "animation.tiktaalik.swim"},
+      "spawn_egg" : {"texture" : "hachchch:tiktaalik","texture_index" : 0},
+      "identifier" : "hachchch:tiktaalik",
+      "animation_controllers" : [
+        {"general" : "controller.animation.tadpole.general"}
+      ],
+      "textures" : {"default" : "textures/entity/tiktaalik"}
+    }
+  }
+}
