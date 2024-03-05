@@ -1,9 +1,9 @@
 {
-  "resource_pack_name" : "CraftyCraft[Resource]",
+  "resource_pack_name" : "vanilla",
   "texture_name" : "atlas.items",
   "texture_data" : {
-    "cc:tiktaalik" : {
-      "textures" : "textures\/craftycraft\/items\/cc_tiktaalik"
+    "tiktaalik" : {
+      "textures" : "textures/items/tiktaalik"
     }
   }
 }
