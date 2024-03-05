@@ -16,8 +16,8 @@
       12,
       0
     ],
-    "description" : "Description is missing",
-    "name" : "Tiktaalik Addon",
+    "description" : "Add Tiktaalik in your game! back to the Paleoworld!",
+    "name" : "Ancient Animal Addon",
     "uuid" : "EC800834-64CD-47D1-8000-455036AB8DEB"
   },
   "dependencies" : [
@@ -37,7 +37,7 @@
         0,
         1
       ],
-      "description" : "Description is missing",
+      "description" : "Add Tiktaalik in your game!",
       "type" : "resources",
       "uuid" : "7F37DD7B-039F-4E27-9941-EF4E9C54CA8D"
     }
