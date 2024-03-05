@@ -1,0 +1,32 @@
+{
+  "minecraft:client_entity" : {
+    "description" : {
+      "render_controllers" : [
+        "controller.render.tadpole"
+      ],
+      "materials" : {
+        "default" : "tadpole"
+      },
+      "geometry" : {
+        "default" : "geometry.createdtiktaalik"
+      },
+      "animations" : {
+        "swim" : "animation.tadpole.swim2E9FACF2-2"
+      },
+      "spawn_egg" : {
+        "texture" : "aaa:tiktaalik",
+        "texture_index" : 0
+      },
+      "identifier" : "aaa:tiktaalik",
+      "animation_controllers" : [
+        {
+          "general" : "controller.animation.tadpole.general"
+        }
+      ],
+      "textures" : {
+        "default" : "textures\/craftycraft\/entity\/aaa_tiktaalik"
+      }
+    }
+  },
+  "format_version" : "1.8.0"
+}
