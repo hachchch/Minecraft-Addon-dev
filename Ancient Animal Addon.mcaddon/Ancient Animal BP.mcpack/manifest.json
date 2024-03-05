@@ -4,7 +4,7 @@
     "name": "Ancient Animal Addon BP",
     "description" : "Description is missing",
     "uuid" : "8E939D59-76B6-4159-A2D2-F0EF4343FD50",
-    "version": [1,0,5],
+    "version": [1,0,6],
     "min_engine_version" : [1,20,62]
   },
   "modules" : [
