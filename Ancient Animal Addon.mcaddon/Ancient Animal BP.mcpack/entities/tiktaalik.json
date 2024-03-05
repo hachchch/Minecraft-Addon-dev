@@ -12,7 +12,7 @@
         "minecraft:is_baby": {
         },
         "minecraft:scale": {
-          "value":0.5
+          "value":0.75
         },
         "minecraft:ageable": {
           "duration": 1200,
@@ -82,8 +82,8 @@
       "minecraft:can_climb": {
       },
       "minecraft:collision_box": {
-        "width": 0.3,
-        "height": 0.2
+        "width": 0.45,
+        "height": 0.1
       },
       "minecraft:nameable": {
       },
