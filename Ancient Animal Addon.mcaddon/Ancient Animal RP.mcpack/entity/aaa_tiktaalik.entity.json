@@ -11,7 +11,7 @@
         "default" : "geometry.createdtiktaalik"
       },
       "animations" : {
-        "swim" : "animation.tadpole.swim2E9FACF2-2"
+        "swim" : "animation.tiktaalik.swim"
       },
       "spawn_egg" : {
         "texture" : "aaa:tiktaalik",
