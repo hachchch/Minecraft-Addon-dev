@@ -1,0 +1,42 @@
+{
+  "mob.aaa_tiktaalik.hurt" : {
+    "category" : "neutral",
+    "sounds" : [
+      {
+        "name" : "sounds\/mob\/tadpole\/hurt1"
+      },
+      {
+        "name" : "sounds\/mob\/tadpole\/hurt2"
+      },
+      {
+        "name" : "sounds\/mob\/tadpole\/hurt3"
+      },
+      {
+        "name" : "sounds\/mob\/tadpole\/hurt4"
+      }
+    ]
+  },
+  "mob.aaa_tiktaalik.death" : {
+    "category" : "neutral",
+    "sounds" : [
+      {
+        "name" : "sounds\/mob\/tadpole\/death1",
+        "volume" : 0.65000000000000002
+      },
+      {
+        "name" : "sounds\/mob\/tadpole\/death2",
+        "volume" : 0.65000000000000002
+      }
+    ]
+  },
+  "mob.fish.flop" : {
+    "sounds" : [
+      "sounds\/mob\/fish\/flop1",
+      "sounds\/mob\/fish\/flop2",
+      "sounds\/mob\/fish\/flop3",
+      "sounds\/mob\/fish\/flop4"
+    ],
+    "__use_legacy_max_distance" : "true",
+    "category" : "neutral"
+  }
+}
