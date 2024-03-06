@@ -1,0 +1,19 @@
+{
+  "format_version" : "1.8.0",
+  "minecraft:client_entity" : {
+    "description" : {
+      "render_controllers" : [
+        "controller.render.tadpole"
+      ],
+      "materials" : {"default" : "tadpole"},
+      "geometry" : {"default" : "geometry.archaeothyris"},
+      "animations" : {"swim" : "animation.archaeothyris.swim"},
+      "spawn_egg" : {"texture" : "hachchch:archaeothyris_egg","texture_index" : 1},
+      "identifier" : "hachchch:archaeothyris",
+      "animation_controllers" : [
+        {"general" : "controller.animation.tadpole.general"}
+      ],
+      "textures" : {"default" : "textures/entity/archaeothyris"}
+    }
+  }
+}
