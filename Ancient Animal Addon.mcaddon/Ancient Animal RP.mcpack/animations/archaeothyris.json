@@ -1,6 +1,6 @@
 {
   "animations" : {
-    "animation.tadpole.swim" : {
+    "animation.archaeothyris.swim" : {
       "bones" : {
         "tail" : {
           "rotation" : {
@@ -22,7 +22,7 @@
           }
         }
       },
-      "animation_length" : 2,
+      "animation_length" : 1.62,
       "loop" : true
     }
   },
