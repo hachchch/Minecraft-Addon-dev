@@ -1,0 +1,19 @@
+{
+  "format_version" : "1.8.0",
+  "minecraft:client_entity" : {
+    "description" : {
+      "render_controllers" : [
+        "controller.render.tadpole"
+      ],
+      "materials" : {"default" : "tadpole"},
+      "geometry" : {"default" : "geometry.dunkleosteus"},
+      "animations" : {"swim" : "animation.dunkleosteus.swim"},
+      "spawn_egg" : {"texture" : "hachchch:dunkleosteus","texture_index" : 1},
+      "identifier" : "hachchch:archaeothyris",
+      "animation_controllers" : [
+        {"general" : "controller.animation.tadpole.general"}
+      ],
+      "textures" : {"default" : "textures/entity/dunkleosteus"}
+    }
+  }
+}
