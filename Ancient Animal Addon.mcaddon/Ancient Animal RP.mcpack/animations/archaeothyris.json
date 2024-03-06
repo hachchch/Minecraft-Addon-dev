@@ -1,6 +1,6 @@
 {
   "animations" : {
-    "animation.archaeothyris.swim" : {
+    "animation.archaeothyris.walk" : {
       "bones" : {
         "limb2" : {
           "rotation" : {
