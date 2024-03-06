@@ -58,7 +58,7 @@
 
     "components": {
       "minecraft:type_family": {
-        "family": ["sarcopterygii","tiktaalik","mob"]
+        "family": ["sarcopterygii","tiktaalik","fish"]
       },
       "minecraft:breathable": {
         "breathes_air" : true,
