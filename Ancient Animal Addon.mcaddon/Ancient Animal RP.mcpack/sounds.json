@@ -29,13 +29,75 @@
               1,
               1
             ]
+          }
+        }
+      },
+      "hachchch:dunkleosteus" : {
+        "pitch" : [
+          0.8,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "death" : {
+            "pitch" : [
+              0.8,
+              1.2
+            ],
+            "sound" : "mob.dunkleosteus.death",
+            "volume" : [
+              1,
+              1
+            ]
+          },
+          "hurt" : {
+            "pitch" : [
+              0.8,
+              1.2
+            ],
+            "sound" : "mob.dunkleosteus.hurt",
+            "volume" : [
+              1,
+              1
+            ]
           },
           "flop" : {
             "pitch" : [
               1,
               1
             ],
-            "sound" : "mob.fish.flop",
+            "sound" : "mob.dunkleosteus.flop",
+            "volume" : [
+              1,
+              1
+            ]
+          }
+        }
+      },
+      "hachchch:archaeothyris" : {
+        "pitch" : [
+          0.8,
+          1.2
+        ],
+        "volume" : 1,
+        "events" : {
+          "death" : {
+            "pitch" : [
+              0.8,
+              1.2
+            ],
+            "sound" : "mob.archaeothyris.death",
+            "volume" : [
+              1,
+              1
+            ]
+          },
+          "hurt" : {
+            "pitch" : [
+              0.8,
+              1.2
+            ],
+            "sound" : "mob.archaeothyris.hurt",
             "volume" : [
               1,
               1
