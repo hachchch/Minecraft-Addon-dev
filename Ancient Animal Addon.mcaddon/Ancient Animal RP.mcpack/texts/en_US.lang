@@ -1,2 +1,8 @@
-entity.aaa:tiktaalik.name=Tiktaalik
-item.spawn_egg.entity.aaa:tiktaalik.name=Tiktaalik
+entity.hachchch:tiktaalik.name=Tiktaalik
+item.spawn_egg.entity.hachchch:tiktaalik.name=Tiktaalik
+
+entity.hachchch:dunkleosteus.name=Dunkleosteus
+item.spawn_egg.entity.hachchch:dunkleosteus.name=Dunkleosteus
+
+entity.hachchch:archaeothyris.name=Archaeothyris
+item.spawn_egg.entity.hachchch:archaeothyris.name=Archaeothyris
