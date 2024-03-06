@@ -7,6 +7,9 @@
     }
     "conditions" : [
       {
+        "minecraft:density_limit": {
+          "surface":10
+        },
         "minecraft:distance_filter": {
           "min": 12,
           "max": 32
