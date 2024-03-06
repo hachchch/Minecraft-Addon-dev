@@ -7,7 +7,7 @@
       ],
       "materials" : {"default" : "tadpole"},
       "geometry" : {"default" : "geometry.archaeothyris"},
-      "animations" : {"swim" : "animation.archaeothyris.swim"},
+      "animations" : {"walk" : "animation.archaeothyris.walk"},
       "spawn_egg" : {"texture" : "hachchch:archaeothyris_egg","texture_index" : 1},
       "identifier" : "hachchch:archaeothyris",
       "animation_controllers" : [
