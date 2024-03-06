@@ -2,16 +2,17 @@
   "format_version" : "1.8.0",
   "minecraft:client_entity" : {
     "description" : {
-      "render_controllers" : [
-        "controller.render.tadpole"
-      ],
-      "materials" : {"default" : "tadpole"},
+      "render_controllers": [ "controller.render.salmon" ],
+      "materials" : {"default" : "salmon"},
       "geometry" : {"default" : "geometry.dunkleosteus"},
-      "animations" : {"swim" : "animation.dunkleosteus.swim"},
+      "animations" : {
+        "flop": "animation.dunkleosteus.flop",
+        "swim" : "animation.dunkleosteus.swim"
+      },
       "spawn_egg" : {"texture" : "hachchch:dunkleosteus","texture_index" : 1},
       "identifier" : "hachchch:archaeothyris",
       "animation_controllers" : [
-        {"general" : "controller.animation.tadpole.general"}
+        {"general" : "controller.animation.fish.general"}
       ],
       "textures" : {"default" : "textures/entity/dunkleosteus"}
     }
