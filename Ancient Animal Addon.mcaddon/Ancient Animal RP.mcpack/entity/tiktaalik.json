@@ -7,7 +7,10 @@
       ],
       "materials" : {"default" : "tadpole"},
       "geometry" : {"default" : "geometry.tiktaalik"},
-      "animations" : {"swim" : "animation.tiktaalik.swim"},
+      "animations" : {
+        "swim" : "animation.tiktaalik.swim",
+        "walk" : "animation.tiktaalik.swim"
+      },
       "spawn_egg" : {"texture" : "hachchch:tiktaalik_egg","texture_index" : 1},
       "identifier" : "hachchch:tiktaalik",
       "animation_controllers" : [
