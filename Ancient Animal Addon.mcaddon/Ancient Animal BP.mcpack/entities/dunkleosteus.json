@@ -47,7 +47,7 @@
       },
       "minecraft:collision_box": {
         "width": 0.5,
-        "height": 0.5
+        "height": 0.6
       },
       "minecraft:breathable": {
         "total_supply": 15,
@@ -56,8 +56,47 @@
         "breathes_water": true
       },
       "minecraft:health": {
-        "value": 3,
-        "max": 3
+        "value": 15,
+        "max": 15
+      },
+      "minecraft:attack": {
+        "damage": 2
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 3,
+        "must_see": true,
+        "reselect_targets": true,
+        "within_radius": 10.0,
+        "must_see_forget_duration": 17.0,
+        "entity_types": [
+          {
+            "filters": {
+              "all_of": [
+                { "test": "in_water", "subject": "other", "value": true },
+                { "test": "has_component", "subject": "self", "operator": "!=", "value": "minecraft:attack_cooldown" },
+                {
+                  "any_of": [
+                    { "test": "is_family", "subject": "other", "value": "axolotl" },
+                    { "test": "is_family", "subject": "other", "value": "squid" },
+                    { "test": "is_family", "subject": "other", "value": "tropicalfish" },
+                    { "test": "is_family", "subject": "other", "value": "salmon" },
+                    { "test": "is_family", "subject": "other", "value": "tiktaalik" },
+                    { "test": "is_family", "subject": "other", "value": "player" },
+                    { "test": "is_family", "subject": "other", "value": "cod" }
+                  ]
+                }
+              ]
+            },
+            "max_dist": 8
+          }
+        ]
+      },
+      "minecraft:behavior.melee_box_attack": {
+        "priority": 4,
+        "on_kill": {
+            "event": "killed_enemy_event",
+            "target": "self"
+        }
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
@@ -69,10 +108,10 @@
         ]
       },
       "minecraft:movement": {
-        "value": 0.12
+        "value": 0.125
       },
       "minecraft:underwater_movement": {
-        "value": 0.12
+        "value": 0.125
       },
       "minecraft:navigation.generic": { // Allows the mob to go through water
         "is_amphibious": false,
@@ -97,27 +136,6 @@
           "min_distance": 32,
           "max_distance": 40
         }
-      },
-      "minecraft:behavior.avoid_mob_type": {
-        "priority": 1,
-        "entity_types": [
-          {
-            "filters": {
-              "any_of": [
-                {
-                  "test": "is_family", "subject": "other", "value": "player"
-                },
-                {
-                  "test": "is_family", "subject": "other", "value": "axolotl"
-                }
-              ]
-            },
-            "max_dist": 3,
-            "max_flee": 10,
-            "walk_speed_multiplier": 1.5,
-            "sprint_speed_multiplier": 2.0
-          }
-        ]
       },
       "minecraft:behavior.swim_idle": {
         "priority": 5,
