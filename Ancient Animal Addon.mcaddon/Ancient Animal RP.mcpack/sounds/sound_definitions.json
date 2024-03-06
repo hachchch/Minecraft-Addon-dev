@@ -16,6 +16,40 @@
       }
     ]
   },
+  "mob.archaeothyris.hurt" : {
+    "category" : "neutral",
+    "sounds" : [
+      {
+        "name" : "sounds/mob/tadpole/hurt1"
+      },
+      {
+        "name" : "sounds/mob/tadpole/hurt2"
+      },
+      {
+        "name" : "sounds/mob/tadpole/hurt3"
+      },
+      {
+        "name" : "sounds/mob/tadpole/hurt4"
+      }
+    ]
+  },
+  "mob.dunkleosteus.hurt" : {
+    "category" : "neutral",
+    "sounds" : [
+      {
+        "name" : "sounds/mob/turtle/hurt1"
+      },
+      {
+        "name" : "sounds/mob/turtle/hurt2"
+      },
+      {
+        "name" : "sounds/mob/turtle/hurt3"
+      },
+      {
+        "name" : "sounds/mob/turtle/hurt4"
+      }
+    ]
+  },
   "mob.tiktaalik.death" : {
     "category" : "neutral",
     "sounds" : [
@@ -29,7 +63,33 @@
       }
     ]
   },
-  "mob.fish.flop" : {
+  "mob.archaeothyris.death" : {
+    "category" : "neutral",
+    "sounds" : [
+      {
+        "name" : "sounds/mob/tadpole/death1",
+        "volume" : 0.65
+      },
+      {
+        "name" : "sounds/mob/tadpole/death2",
+        "volume" : 0.65
+      }
+    ]
+  },
+  "mob.dunkleosteus.death" : {
+    "category" : "neutral",
+    "sounds" : [
+      {
+        "name" : "sounds/mob/turtle/death1",
+        "volume" : 0.65
+      },
+      {
+        "name" : "sounds/mob/turtle/death2",
+        "volume" : 0.65
+      }
+    ]
+  },
+  "mob.dunkleosteus.flop" : {
     "sounds" : [
       "sounds/mob/fish/flop1",
       "sounds/mob/fish/flop2",
